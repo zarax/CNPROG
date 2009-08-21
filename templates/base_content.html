@@ -8,7 +8,8 @@
         <meta name="verify-v1" content="{{ settings.GOOGLE_SITEMAP_CODE }}" />
         <link rel="shortcut icon" href="/content/images/favicon.ico" />
         <link href="/content/style/style.css" rel="stylesheet" type="text/css" />
-		 {% spaceless %}
+        <link rel="alternate" type="application/rss+xml" title="SciPy Advice Questions" href="/feeds/rss" />
+        {% spaceless %}
         {% block forestyle %}{% endblock %}
         {% endspaceless %}
         <script src="http://www.google.com/jsapi" type="text/javascript"></script>
