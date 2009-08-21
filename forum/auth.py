@@ -14,7 +14,7 @@ from const import TYPE_REPUTATION
 question_type = ContentType.objects.get_for_model(Question)
 answer_type = ContentType.objects.get_for_model(Answer)
 
-VOTE_UP                   = 15
+VOTE_UP                   = 0
 FLAG_OFFENSIVE            = 15
 POST_IMAGES               = 15
 LEAVE_COMMENTS            = 50
