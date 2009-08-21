@@ -1,6 +1,7 @@
 # encoding:utf-8
 import datetime
 import hashlib
+import re
 from urllib import quote_plus, urlencode
 from django.db import models
 from django.utils.html import strip_tags
@@ -177,7 +178,10 @@ class Question(models.Model):
 
     def tagname_list(self):
         """Creates a list of Tag names from the ``tagnames`` attribute."""
-        return [name for name in self.tagnames.split(u' ')]
+        tagnames = [name.strip() for name in re.split(ur'[\s,]', self.tagnames)]
+        # Remove empty strings.
+        clean_names = [name for name in tagnames if name]
+        return clean_names
 
     def tagname_meta_generator(self):
         return u','.join([unicode(tag) for tag in self.tagname_list()])
