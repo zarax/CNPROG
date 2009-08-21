@@ -120,7 +120,7 @@
             </p>
         </div>
         <div>
-            <h3 class="subtitle">{% trans "Still have questions?" %}</h3>
+            <h3 id="feedback" class="subtitle">{% trans "Still have questions?" %}</h3>
             <p>{% trans "Please ask your question, help make our community better!" %} 
             <!--
             <a href="{% url tags %}faq" class="big">{{ settings.APP_TITLE }} {% trans "questions" %}</a>{% trans "." %}
@@ -129,7 +129,7 @@
         </div>
 </div>
 <script type="text/javascript">
-    //highlihts section if url has matching #anchor_name
+    //highlights section if url has matching #anchor_name
     $(document).ready(function (){
         var hash = window.location.hash;
         if (hash.length > 1){

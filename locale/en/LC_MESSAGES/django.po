@@ -3,26 +3,33 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-19 00:41+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-08-20 15:11-0800\n"
+"Last-Translator: Robert Kern <robert.kern@enthought.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: settings.py:12 urls.py:25 forum/views.py:305 forum/views.py:699
+#: settings.py:12
+#: urls.py:25
+#: forum/views.py:305
+#: forum/views.py:699
 msgid "account/"
 msgstr ""
 
-#: settings.py:12 urls.py:26 django_authopenid/urls.py:9
-#: django_authopenid/urls.py:10 django_authopenid/urls.py:11
-#: django_authopenid/urls.py:13 forum/views.py:305 forum/views.py:700
+#: settings.py:12
+#: urls.py:26
+#: django_authopenid/urls.py:9
+#: django_authopenid/urls.py:10
+#: django_authopenid/urls.py:11
+#: django_authopenid/urls.py:13
+#: forum/views.py:305
+#: forum/views.py:700
 #: templates/authopenid/confirm_email.txt:10
 msgid "signin/"
 msgstr ""
@@ -31,7 +38,10 @@ msgstr ""
 msgid "upfiles/"
 msgstr ""
 
-#: urls.py:27 urls.py:28 urls.py:29 django_authopenid/urls.py:26
+#: urls.py:27
+#: urls.py:28
+#: urls.py:29
+#: django_authopenid/urls.py:26
 #: django_authopenid/urls.py:27
 msgid "email/"
 msgstr ""
@@ -64,30 +74,52 @@ msgstr ""
 msgid "logout/"
 msgstr ""
 
-#: urls.py:34 urls.py:35 urls.py:36 urls.py:48 forum/models.py:418
+#: urls.py:34
+#: urls.py:35
+#: urls.py:36
+#: urls.py:48
+#: forum/models.py:418
 msgid "answers/"
 msgstr ""
 
-#: urls.py:34 urls.py:46
+#: urls.py:34
+#: urls.py:46
 msgid "comments/"
 msgstr ""
 
-#: urls.py:35 urls.py:40 urls.py:54 templates/user_info.html:34
+#: urls.py:35
+#: urls.py:40
+#: urls.py:54
+#: templates/user_info.html:34
 msgid "edit/"
 msgstr ""
 
-#: urls.py:36 urls.py:45
+#: urls.py:36
+#: urls.py:45
 msgid "revisions/"
 msgstr ""
 
-#: urls.py:37 urls.py:38 urls.py:39 urls.py:40 urls.py:41 urls.py:42
-#: urls.py:43 urls.py:44 urls.py:45 urls.py:46 urls.py:47 forum/feed.py:19
-#: forum/models.py:306 forum/views.py:1188 forum/views.py:1190
+#: urls.py:37
+#: urls.py:38
+#: urls.py:39
+#: urls.py:40
+#: urls.py:41
+#: urls.py:42
+#: urls.py:43
+#: urls.py:44
+#: urls.py:45
+#: urls.py:46
+#: urls.py:47
+#: forum/feed.py:19
+#: forum/models.py:306
+#: forum/views.py:1188
+#: forum/views.py:1190
 #: forum/views.py:1430
 msgid "questions/"
 msgstr ""
 
-#: urls.py:38 urls.py:64
+#: urls.py:38
+#: urls.py:64
 msgid "ask/"
 msgstr ""
 
@@ -111,7 +143,9 @@ msgstr ""
 msgid "vote/"
 msgstr ""
 
-#: urls.py:47 urls.py:48 django_authopenid/urls.py:29
+#: urls.py:47
+#: urls.py:48
+#: django_authopenid/urls.py:29
 msgid "delete/"
 msgstr ""
 
@@ -119,16 +153,26 @@ msgstr ""
 msgid "question/"
 msgstr ""
 
-#: urls.py:51 urls.py:52 forum/views.py:741 forum/views.py:2027
+#: urls.py:51
+#: urls.py:52
+#: forum/views.py:741
+#: forum/views.py:2027
 msgid "tags/"
 msgstr ""
 
-#: urls.py:53 urls.py:54 urls.py:55 forum/views.py:994 forum/views.py:998
-#: forum/views.py:1432 forum/views.py:1765 forum/views.py:2029
+#: urls.py:53
+#: urls.py:54
+#: urls.py:55
+#: forum/views.py:994
+#: forum/views.py:998
+#: forum/views.py:1432
+#: forum/views.py:1765
+#: forum/views.py:2029
 msgid "users/"
 msgstr ""
 
-#: urls.py:56 urls.py:57
+#: urls.py:56
+#: urls.py:57
 msgid "badges/"
 msgstr ""
 
@@ -148,7 +192,9 @@ msgstr ""
 msgid "upload/"
 msgstr ""
 
-#: urls.py:63 urls.py:64 urls.py:65
+#: urls.py:63
+#: urls.py:64
+#: urls.py:65
 msgid "books/"
 msgstr ""
 
@@ -156,33 +202,31 @@ msgstr ""
 msgid "search/"
 msgstr ""
 
-#: django_authopenid/forms.py:67 django_authopenid/views.py:102
+#: django_authopenid/forms.py:67
+#: django_authopenid/views.py:102
 msgid "i-names are not supported"
 msgstr ""
 
 #: django_authopenid/forms.py:102
-msgid ""
-"Usernames can only contain                     letters, numbers and "
-"underscores"
+msgid "Usernames can only contain                     letters, numbers and underscores"
 msgstr ""
 
 #: django_authopenid/forms.py:109
-msgid ""
-"This username does not exist                     in our database. Please "
-"choose another."
+msgid "This username does not exist                     in our database. Please choose another."
 msgstr ""
 
-#: django_authopenid/forms.py:126 django_authopenid/forms.py:233
-msgid ""
-"Please enter a valid                     username and password. Note that "
-"both fields are                     case-sensitive."
+#: django_authopenid/forms.py:126
+#: django_authopenid/forms.py:233
+msgid "Please enter a valid                     username and password. Note that both fields are                     case-sensitive."
 msgstr ""
 
-#: django_authopenid/forms.py:130 django_authopenid/forms.py:237
+#: django_authopenid/forms.py:130
+#: django_authopenid/forms.py:237
 msgid "This account is inactive."
 msgstr ""
 
-#: django_authopenid/forms.py:158 django_authopenid/forms.py:210
+#: django_authopenid/forms.py:158
+#: django_authopenid/forms.py:210
 msgid "invalid user name"
 msgstr "User names can contain letters, underscore and empty space."
 
@@ -194,41 +238,40 @@ msgstr ""
 msgid "username too short"
 msgstr ""
 
-#: django_authopenid/forms.py:170 django_authopenid/forms.py:171
+#: django_authopenid/forms.py:170
+#: django_authopenid/forms.py:171
 msgid "this name is already in use - please try anoter"
 msgstr ""
 
 #: django_authopenid/forms.py:185
-msgid ""
-"This email is already                         registered in our database. "
-"Please choose another."
+msgid "This email is already                         registered in our database. Please choose another."
 msgstr ""
 
 #: django_authopenid/forms.py:216
-msgid ""
-"This username don't exist.                         Please choose another."
+msgid "This username don't exist.                         Please choose another."
 msgstr ""
 
 #: django_authopenid/forms.py:255
 msgid "choose a username"
 msgstr ""
 
-#: django_authopenid/forms.py:257 templates/authopenid/signup.html:38
+#: django_authopenid/forms.py:257
+#: templates/authopenid/signup.html:38
 msgid "your email address"
 msgstr ""
 
-#: django_authopenid/forms.py:259 templates/authopenid/signup.html:39
+#: django_authopenid/forms.py:259
+#: templates/authopenid/signup.html:39
 msgid "choose password"
 msgstr ""
 
-#: django_authopenid/forms.py:261 templates/authopenid/signup.html:40
+#: django_authopenid/forms.py:261
+#: templates/authopenid/signup.html:40
 msgid "retype password"
 msgstr ""
 
 #: django_authopenid/forms.py:335
-msgid ""
-"Old password is incorrect.                     Please enter the correct "
-"password."
+msgid "Old password is incorrect.                     Please enter the correct password."
 msgstr ""
 
 #: django_authopenid/forms.py:347
@@ -239,7 +282,9 @@ msgstr ""
 msgid "Incorrect username."
 msgstr ""
 
-#: django_authopenid/urls.py:10 forum/views.py:305 forum/views.py:700
+#: django_authopenid/urls.py:10
+#: forum/views.py:305
+#: forum/views.py:700
 msgid "newquestion/"
 msgstr ""
 
@@ -276,7 +321,8 @@ msgstr ""
 msgid "OpenID %(openid_url)s is invalid"
 msgstr ""
 
-#: django_authopenid/views.py:418 django_authopenid/views.py:545
+#: django_authopenid/views.py:418
+#: django_authopenid/views.py:545
 msgid "Welcome"
 msgstr "Verification Email from Q&amp;A forum"
 
@@ -284,18 +330,19 @@ msgstr "Verification Email from Q&amp;A forum"
 msgid "Password changed."
 msgstr ""
 
-#: django_authopenid/views.py:520 django_authopenid/views.py:525
+#: django_authopenid/views.py:520
+#: django_authopenid/views.py:525
 msgid "your email needs to be validated"
-msgstr ""
-"Your email needs to be validated. Please see details <a "
-"id='validate_email_alert' href=\"/faq#validate\">here</a>."
+msgstr "Your email needs to be validated. Please see details <a id='validate_email_alert' href=\"/faq#validate\">here</a>."
 
-#: django_authopenid/views.py:682 django_authopenid/views.py:834
+#: django_authopenid/views.py:682
+#: django_authopenid/views.py:834
 #, python-format
 msgid "No OpenID %s found associated in our database"
 msgstr ""
 
-#: django_authopenid/views.py:686 django_authopenid/views.py:841
+#: django_authopenid/views.py:686
+#: django_authopenid/views.py:841
 #, python-format
 msgid "The OpenID %s isn't associated to current user logged in"
 msgstr ""
@@ -327,15 +374,11 @@ msgstr ""
 
 #: django_authopenid/views.py:927
 #, python-format
-msgid ""
-"Could not change password. Confirmation key '%s'                is not "
-"registered."
+msgid "Could not change password. Confirmation key '%s'                is not registered."
 msgstr ""
 
 #: django_authopenid/views.py:936
-msgid ""
-"Can not change password. User don't exist anymore                 in our "
-"database."
+msgid "Can not change password. User don't exist anymore                 in our database."
 msgstr ""
 
 #: django_authopenid/views.py:945
@@ -379,7 +422,8 @@ msgstr ""
 msgid "question"
 msgstr ""
 
-#: forum/const.py:57 templates/book.html:110
+#: forum/const.py:57
+#: templates/book.html:110
 msgid "answer"
 msgstr ""
 
@@ -467,8 +511,10 @@ msgstr ""
 msgid "latest questions"
 msgstr ""
 
-#: forum/forms.py:14 templates/answer_edit_tips.html:33
-#: templates/answer_edit_tips.html.py:37 templates/question_edit_tips.html:31
+#: forum/forms.py:14
+#: templates/answer_edit_tips.html:33
+#: templates/answer_edit_tips.html.py:37
+#: templates/question_edit_tips.html:31
 #: templates/question_edit_tips.html:36
 msgid "title"
 msgstr ""
@@ -489,16 +535,18 @@ msgstr ""
 msgid "question content must be > 10 characters"
 msgstr ""
 
-#: forum/forms.py:45 templates/header.html:30 templates/header.html.py:64
+#: forum/forms.py:45
+#: templates/header.html:30
+#: templates/header.html.py:64
 msgid "tags"
 msgstr ""
 
 #: forum/forms.py:47
-msgid ""
-"Tags are short keywords, with no spaces within. Up to five tags can be used."
+msgid "Tags are short keywords, with no spaces within. Up to five tags can be used."
 msgstr ""
 
-#: forum/forms.py:54 templates/question_retag.html:38
+#: forum/forms.py:54
+#: templates/question_retag.html:38
 msgid "tags are required"
 msgstr ""
 
@@ -511,22 +559,22 @@ msgid "tags must be shorter than 20 characters"
 msgstr ""
 
 #: forum/forms.py:65
-msgid ""
-"please use following characters in tags: letters 'a-z', numbers, and "
-"characters '.-_#'"
+msgid "please use following characters in tags: letters 'a-z', numbers, and characters '.-_#'"
 msgstr ""
 
-#: forum/forms.py:75 templates/index.html:57 templates/question.html:209
-#: templates/question.html.py:395 templates/questions.html:58
-#: templates/questions.html.py:70 templates/unanswered.html:48
+#: forum/forms.py:75
+#: templates/index.html:57
+#: templates/question.html:209
+#: templates/question.html.py:395
+#: templates/questions.html:58
+#: templates/questions.html.py:70
+#: templates/unanswered.html:48
 #: templates/unanswered.html.py:60
 msgid "community wiki"
 msgstr ""
 
 #: forum/forms.py:76
-msgid ""
-"if you choose community wiki option, the question and answer do not generate "
-"points and name of author will not be shown"
+msgid "if you choose community wiki option, the question and answer do not generate points and name of author will not be shown"
 msgstr ""
 
 #: forum/forms.py:89
@@ -534,9 +582,7 @@ msgid "update summary:"
 msgstr ""
 
 #: forum/forms.py:90
-msgid ""
-"enter a brief summary of your revision (e.g. fixed spelling, grammar, "
-"improved style, this field is optional)"
+msgid "enter a brief summary of your revision (e.g. fixed spelling, grammar, improved style, this field is optional)"
 msgstr ""
 
 #: forum/forms.py:175
@@ -563,11 +609,13 @@ msgstr ""
 msgid "will not be shown, used to calculate age, format: YYYY-MM-DD"
 msgstr ""
 
-#: forum/forms.py:180 templates/authopenid/settings.html:21
+#: forum/forms.py:180
+#: templates/authopenid/settings.html:21
 msgid "Profile"
 msgstr ""
 
-#: forum/forms.py:207 forum/forms.py:208
+#: forum/forms.py:207
+#: forum/forms.py:208
 msgid "this email has already been registered, please use another one"
 msgstr ""
 
@@ -596,23 +644,28 @@ msgstr ""
 msgid "%(people)s commented an answer"
 msgstr ""
 
-#: forum/models.py:306 forum/models.py:418
+#: forum/models.py:306
+#: forum/models.py:418
 msgid "revisions"
 msgstr ""
 
-#: forum/models.py:441 templates/badges.html:51
+#: forum/models.py:441
+#: templates/badges.html:51
 msgid "gold"
 msgstr ""
 
-#: forum/models.py:442 templates/badges.html:59
+#: forum/models.py:442
+#: templates/badges.html:59
 msgid "silver"
 msgstr ""
 
-#: forum/models.py:443 templates/badges.html:66
+#: forum/models.py:443
+#: templates/badges.html:66
 msgid "bronze"
 msgstr ""
 
-#: forum/user.py:16 templates/user_tabs.html:7
+#: forum/user.py:16
+#: templates/user_tabs.html:7
 msgid "overview"
 msgstr ""
 
@@ -624,7 +677,8 @@ msgstr ""
 msgid "user profile overview"
 msgstr ""
 
-#: forum/user.py:24 templates/user_tabs.html:9
+#: forum/user.py:24
+#: templates/user_tabs.html:9
 msgid "recent activity"
 msgstr ""
 
@@ -636,11 +690,13 @@ msgstr ""
 msgid "profile - recent activity"
 msgstr ""
 
-#: forum/user.py:33 templates/user_tabs.html:13
+#: forum/user.py:33
+#: templates/user_tabs.html:13
 msgid "responses"
 msgstr ""
 
-#: forum/user.py:34 templates/user_tabs.html:12
+#: forum/user.py:34
+#: templates/user_tabs.html:12
 msgid "comments and answers to others questions"
 msgstr ""
 
@@ -648,7 +704,9 @@ msgstr ""
 msgid "profile - responses"
 msgstr ""
 
-#: forum/user.py:42 templates/user_info.html:23 templates/users.html:26
+#: forum/user.py:42
+#: templates/user_info.html:23
+#: templates/users.html:26
 msgid "reputation"
 msgstr ""
 
@@ -672,11 +730,13 @@ msgstr ""
 msgid "profile - favorite questions"
 msgstr ""
 
-#: forum/user.py:59 templates/user_tabs.html:20
+#: forum/user.py:59
+#: templates/user_tabs.html:20
 msgid "casted votes"
 msgstr "votes"
 
-#: forum/user.py:60 templates/user_tabs.html:20
+#: forum/user.py:60
+#: templates/user_tabs.html:20
 msgid "user vote record"
 msgstr ""
 
@@ -688,7 +748,8 @@ msgstr ""
 msgid "preferences"
 msgstr ""
 
-#: forum/user.py:69 templates/user_tabs.html:27
+#: forum/user.py:69
+#: templates/user_tabs.html:27
 msgid "user preference settings"
 msgstr ""
 
@@ -699,9 +760,7 @@ msgstr ""
 #: forum/views.py:948
 #, python-format
 msgid "subscription saved, %(email)s needs validation"
-msgstr ""
-"Your subscription is saved, but email address %(email)s needs to be "
-"validated, please see <a href='/faq#validate'>more details here</a>"
+msgstr "Your subscription is saved, but email address %(email)s needs to be validated, please see <a href='/faq#validate'>more details here</a>"
 
 #: forum/views.py:1874
 msgid "uploading images is limited to users with >60 reputation points"
@@ -718,20 +777,21 @@ msgstr ""
 
 #: forum/views.py:1880
 #, python-format
-msgid ""
-"Error uploading file. Please contact the site administrator. Thank you. %s"
+msgid "Error uploading file. Please contact the site administrator. Thank you. %s"
 msgstr ""
 
 #: forum/management/commands/send_email_alerts.py:35
 msgid "updates from website"
 msgstr "Q&amp;A forum update"
 
-#: forum/templatetags/extra_tags.py:143 forum/templatetags/extra_tags.py:172
+#: forum/templatetags/extra_tags.py:143
+#: forum/templatetags/extra_tags.py:172
 #: templates/header.html:35
 msgid "badges"
 msgstr ""
 
-#: forum/templatetags/extra_tags.py:144 forum/templatetags/extra_tags.py:171
+#: forum/templatetags/extra_tags.py:144
+#: forum/templatetags/extra_tags.py:171
 msgid "reputation points"
 msgstr ""
 
@@ -756,9 +816,7 @@ msgid "url has error - please check it;"
 msgstr ""
 
 #: templates/404.html:30
-msgid ""
-"the page you tried to visit is protected or you don't have sufficient "
-"points, see"
+msgid "the page you tried to visit is protected or you don't have sufficient points, see"
 msgstr ""
 
 #: templates/404.html:31
@@ -769,7 +827,8 @@ msgstr ""
 msgid "report this problem"
 msgstr ""
 
-#: templates/404.html:41 templates/500.html:27
+#: templates/404.html:41
+#: templates/500.html:27
 msgid "back to previous page"
 msgstr ""
 
@@ -801,58 +860,79 @@ msgstr ""
 msgid "see tags"
 msgstr ""
 
-#: templates/about.html:6 templates/about.html.py:11
+#: templates/about.html:6
+#: templates/about.html.py:11
 msgid "About"
 msgstr ""
 
-#: templates/answer_edit.html:4 templates/answer_edit.html.py:47
+#: templates/answer_edit.html:4
+#: templates/answer_edit.html.py:47
 msgid "Edit answer"
 msgstr ""
 
-#: templates/answer_edit.html:24 templates/answer_edit.html.py:27
-#: templates/ask.html:25 templates/ask.html.py:28 templates/question.html:43
-#: templates/question.html.py:46 templates/question_edit.html:27
+#: templates/answer_edit.html:24
+#: templates/answer_edit.html.py:27
+#: templates/ask.html:25
+#: templates/ask.html.py:28
+#: templates/question.html:43
+#: templates/question.html.py:46
+#: templates/question_edit.html:27
 msgid "hide preview"
 msgstr ""
 
-#: templates/answer_edit.html:27 templates/ask.html:28
-#: templates/question.html:46 templates/question_edit.html:27
+#: templates/answer_edit.html:27
+#: templates/ask.html:28
+#: templates/question.html:46
+#: templates/question_edit.html:27
 msgid "show preview"
 msgstr ""
 
-#: templates/answer_edit.html:47 templates/question_edit.html:65
-#: templates/question_retag.html:52 templates/revisions_answer.html:36
+#: templates/answer_edit.html:47
+#: templates/question_edit.html:65
+#: templates/question_retag.html:52
+#: templates/revisions_answer.html:36
 #: templates/revisions_question.html:36
 msgid "back"
 msgstr ""
 
-#: templates/answer_edit.html:52 templates/question_edit.html:70
-#: templates/revisions_answer.html:47 templates/revisions_question.html:47
+#: templates/answer_edit.html:52
+#: templates/question_edit.html:70
+#: templates/revisions_answer.html:47
+#: templates/revisions_question.html:47
 msgid "revision"
 msgstr ""
 
-#: templates/answer_edit.html:55 templates/question_edit.html:74
+#: templates/answer_edit.html:55
+#: templates/question_edit.html:74
 msgid "select revision"
 msgstr ""
 
-#: templates/answer_edit.html:62 templates/ask.html:94
-#: templates/question.html:467 templates/question_edit.html:91
+#: templates/answer_edit.html:62
+#: templates/ask.html:94
+#: templates/question.html:467
+#: templates/question_edit.html:91
 msgid "Toggle the real time Markdown editor preview"
 msgstr ""
 
-#: templates/answer_edit.html:62 templates/ask.html:94
-#: templates/question.html:467 templates/question_edit.html:91
+#: templates/answer_edit.html:62
+#: templates/ask.html:94
+#: templates/question.html:467
+#: templates/question_edit.html:91
 msgid "toggle preview"
 msgstr ""
 
-#: templates/answer_edit.html:71 templates/question_edit.html:115
+#: templates/answer_edit.html:71
+#: templates/question_edit.html:115
 #: templates/question_retag.html:73
 msgid "Save edit"
 msgstr ""
 
-#: templates/answer_edit.html:72 templates/close.html:29
-#: templates/question_edit.html:116 templates/question_retag.html:74
-#: templates/reopen.html:30 templates/user_edit.html:83
+#: templates/answer_edit.html:72
+#: templates/close.html:29
+#: templates/question_edit.html:116
+#: templates/question_retag.html:74
+#: templates/reopen.html:30
+#: templates/user_edit.html:83
 #: templates/authopenid/changeemail.html:34
 msgid "Cancel"
 msgstr ""
@@ -873,74 +953,76 @@ msgstr ""
 msgid "please try to provide details"
 msgstr ""
 
-#: templates/answer_edit_tips.html:16 templates/question_edit_tips.html:13
+#: templates/answer_edit_tips.html:16
+#: templates/question_edit_tips.html:13
 msgid "be clear and concise"
 msgstr ""
 
-#: templates/answer_edit_tips.html:19 templates/question_edit_tips.html:16
+#: templates/answer_edit_tips.html:19
+#: templates/question_edit_tips.html:16
 msgid "see frequently asked questions"
 msgstr ""
 
-#: templates/answer_edit_tips.html:24 templates/question_edit_tips.html:22
+#: templates/answer_edit_tips.html:24
+#: templates/question_edit_tips.html:22
 msgid "Markdown tips"
 msgstr "Markdown basics"
 
-#: templates/answer_edit_tips.html:27 templates/question_edit_tips.html:25
+#: templates/answer_edit_tips.html:27
+#: templates/question_edit_tips.html:25
 msgid "*italic* or __italic__"
 msgstr ""
 
-#: templates/answer_edit_tips.html:30 templates/question_edit_tips.html:28
+#: templates/answer_edit_tips.html:30
+#: templates/question_edit_tips.html:28
 msgid "**bold** or __bold__"
 msgstr ""
 
-#: templates/answer_edit_tips.html:33 templates/question_edit_tips.html:31
+#: templates/answer_edit_tips.html:33
+#: templates/question_edit_tips.html:31
 msgid "link"
 msgstr ""
 
-#: templates/answer_edit_tips.html:33 templates/answer_edit_tips.html.py:37
-#: templates/question_edit_tips.html:31 templates/question_edit_tips.html:36
+#: templates/answer_edit_tips.html:33
+#: templates/answer_edit_tips.html.py:37
+#: templates/question_edit_tips.html:31
+#: templates/question_edit_tips.html:36
 msgid "text"
 msgstr ""
 
-#: templates/answer_edit_tips.html:37 templates/question_edit_tips.html:36
+#: templates/answer_edit_tips.html:37
+#: templates/question_edit_tips.html:36
 msgid "image"
 msgstr ""
 
-#: templates/answer_edit_tips.html:41 templates/question_edit_tips.html:40
+#: templates/answer_edit_tips.html:41
+#: templates/question_edit_tips.html:40
 msgid "numbered list:"
 msgstr ""
 
-#: templates/answer_edit_tips.html:46 templates/question_edit_tips.html:45
+#: templates/answer_edit_tips.html:46
+#: templates/question_edit_tips.html:45
 msgid "basic HTML tags are also supported"
 msgstr ""
 
-#: templates/answer_edit_tips.html:49 templates/question_edit_tips.html:48
+#: templates/answer_edit_tips.html:49
+#: templates/question_edit_tips.html:48
 msgid "learn more about Markdown"
 msgstr ""
 
-#: templates/ask.html:4 templates/ask.html.py:60
+#: templates/ask.html:4
+#: templates/ask.html.py:60
 msgid "Ask a question"
 msgstr ""
 
 #: templates/ask.html:67
 msgid "login to post question info"
-msgstr ""
-"<span class=\"strong big\">You are welcome to start submitting your question "
-"anonymously</span>  - you are currently not logged in. When you post your "
-"question, you will be redirected to the login/signup page. Your question "
-"will be saved meanwhile  and will be posted when you log in. Login/signup "
-"process is very simple. Login takes about 30 seconds, initial signup takes a "
-"minute or less."
+msgstr "<span class=\"strong big\">You are welcome to start submitting your question anonymously</span>  - you are currently not logged in. When you post your question, you will be redirected to the login/signup page. Your question will be saved meanwhile  and will be posted when you log in. Login/signup process is very simple. Login takes about 30 seconds, initial signup takes a minute or less."
 
 #: templates/ask.html:73
 #, python-format
 msgid "must have valid %(email)s to post"
-msgstr ""
-"<span class='strong big'>Looks like your email address, %(email)s has not "
-"yet been validated.</span> To post messages you must verify your email, "
-"please see <a href='/faq#validate'>more details here</a>.<br>You can submit "
-"your question now and validate email after that. Your question will saved as "
-"pending meanwhile. "
+msgstr "<span class='strong big'>Looks like your email address, %(email)s has not yet been validated.</span> To post messages you must verify your email, please see <a href='/faq#validate'>more details here</a>.<br>You can submit your question now and validate email after that. Your question will saved as pending meanwhile. "
 
 #: templates/ask.html:107
 msgid "(required)"
@@ -954,7 +1036,8 @@ msgstr "Login/Signup to Post"
 msgid "Ask your question"
 msgstr "Ask Your Question"
 
-#: templates/badge.html:6 templates/badge.html.py:17
+#: templates/badge.html:6
+#: templates/badge.html.py:17
 msgid "Badge"
 msgstr ""
 
@@ -966,27 +1049,18 @@ msgstr ""
 msgid "Badges summary"
 msgstr ""
 
-#: templates/badges.html:17 templates/user_stats.html:73
+#: templates/badges.html:17
+#: templates/user_stats.html:73
 msgid "Badges"
 msgstr ""
 
 #: templates/badges.html:21
 msgid "Community gives you awards for your questions, answers and votes."
-msgstr ""
-"If your questions and answers are highly voted, your contribution to this "
-"Q&amp;A community will be recognized with the variety of badges."
+msgstr "If your questions and answers are highly voted, your contribution to this Q&amp;A community will be recognized with the variety of badges."
 
 #: templates/badges.html:22
-msgid ""
-"Below is the list of available badges and number of times each type of badge "
-"has been awarded."
-msgstr ""
-"Currently badges differ only by their level: <strong>gold</strong>, "
-"<strong>silver</strong> and <strong>bronze</strong> (their meanings are "
-"described on the right). In the future there will be many types of badges at "
-"each level. <strong>Please give us your <a href=\"/faq#feedback\">feedback</"
-"a></strong> - what kinds of badges would you like to see and suggest the "
-"activity for which those badges might be awarded."
+msgid "Below is the list of available badges and number of times each type of badge has been awarded."
+msgstr "Currently badges differ only by their level: <strong>gold</strong>, <strong>silver</strong> and <strong>bronze</strong> (their meanings are described on the right). In the future there will be many types of badges at each level. <strong>Please give us your <a href=\"/faq#feedback\">feedback</a></strong> - what kinds of badges would you like to see and suggest the activity for which those badges might be awarded."
 
 #: templates/badges.html:48
 msgid "Community badges"
@@ -994,15 +1068,11 @@ msgstr "Badge levels"
 
 #: templates/badges.html:54
 msgid "gold badge description"
-msgstr ""
-"Gold badge is the highest award in this community. To obtain it have to show "
-"profound knowledge and ability in addition to your active participation."
+msgstr "Gold badge is the highest award in this community. To obtain it have to show profound knowledge and ability in addition to your active participation."
 
 #: templates/badges.html:62
 msgid "silver badge description"
-msgstr ""
-"Obtaining silver badge requires significant patience. If you have received "
-"one, that means you have greatly contributed to this community."
+msgstr "Obtaining silver badge requires significant patience. If you have received one, that means you have greatly contributed to this community."
 
 #: templates/badges.html:65
 msgid "bronze badge: often given as a special honor"
@@ -1010,9 +1080,7 @@ msgstr ""
 
 #: templates/badges.html:69
 msgid "bronze badge description"
-msgstr ""
-"If you are an active participant in this community, you will be recognized "
-"with this badge."
+msgstr "If you are an active participant in this community, you will be recognized with this badge."
 
 #: templates/book.html:7
 msgid "reading channel"
@@ -1070,18 +1138,24 @@ msgstr ""
 msgid "ask the author"
 msgstr ""
 
-#: templates/book.html:88 templates/book.html.py:93
+#: templates/book.html:88
+#: templates/book.html.py:93
 #: templates/users_questions.html:18
 msgid "this question was selected as favorite"
 msgstr ""
 
-#: templates/book.html:88 templates/book.html.py:93
-#: templates/users_questions.html:11 templates/users_questions.html.py:18
+#: templates/book.html:88
+#: templates/book.html.py:93
+#: templates/users_questions.html:11
+#: templates/users_questions.html.py:18
 msgid "number of times"
 msgstr ""
 
-#: templates/book.html:105 templates/index.html:48 templates/questions.html:46
-#: templates/unanswered.html:37 templates/users_questions.html:32
+#: templates/book.html:105
+#: templates/index.html:48
+#: templates/questions.html:46
+#: templates/unanswered.html:37
+#: templates/users_questions.html:32
 msgid "votes"
 msgstr ""
 
@@ -1089,15 +1163,23 @@ msgstr ""
 msgid "the answer has been accepted to be correct"
 msgstr ""
 
-#: templates/book.html:115 templates/index.html:49 templates/questions.html:47
-#: templates/unanswered.html:38 templates/users_questions.html:42
+#: templates/book.html:115
+#: templates/index.html:49
+#: templates/questions.html:47
+#: templates/unanswered.html:38
+#: templates/users_questions.html:42
 msgid "views"
 msgstr ""
 
-#: templates/book.html:125 templates/index.html:69 templates/question.html:499
-#: templates/questions.html:84 templates/questions.html.py:156
-#: templates/tags.html:49 templates/unanswered.html:75
-#: templates/unanswered.html.py:106 templates/users_questions.html:54
+#: templates/book.html:125
+#: templates/index.html:69
+#: templates/question.html:499
+#: templates/questions.html:84
+#: templates/questions.html.py:156
+#: templates/tags.html:49
+#: templates/unanswered.html:75
+#: templates/unanswered.html.py:106
+#: templates/users_questions.html:54
 msgid "using tags"
 msgstr ""
 
@@ -1105,11 +1187,13 @@ msgstr ""
 msgid "subscribe to book RSS feed"
 msgstr ""
 
-#: templates/book.html:147 templates/index.html:118
+#: templates/book.html:147
+#: templates/index.html:118
 msgid "subscribe to the questions feed"
 msgstr ""
 
-#: templates/close.html:6 templates/close.html.py:16
+#: templates/close.html:6
+#: templates/close.html.py:16
 msgid "Close question"
 msgstr ""
 
@@ -1134,43 +1218,28 @@ msgid "What kinds of questions can I ask here?"
 msgstr ""
 
 #: templates/faq.html:17
-msgid ""
-"Most importanly - questions should be <strong>relevant</strong> to this "
-"community."
-msgstr ""
+msgid "Most importanly - questions should be <strong>relevant</strong> to this community."
+msgstr "Most importantly, questions should be <strong>relevant</strong> to <a href=\"http://www.python.org\">Python</a> and its use in science, mathematics, and engineering. This site is not limited to questions about numpy and scipy although those are quite welcome.</p><p>Good questions are specific, detailed, and clear. You can always edit your question later to provide more information and clarify details.</p><p>"
 
 #: templates/faq.html:18
-msgid ""
-"Before asking the question - please make sure to use search to see whether "
-"your question has alredy been answered."
-msgstr ""
-"Before you ask - please make sure to search for a similar question. You can "
-"search questions by their title or tags."
+msgid "Before asking the question - please make sure to use search to see whether your question has alredy been answered."
+msgstr "Before asking your question, please make sure to use the search feature to see if it has already been answered. It is okay to re-ask old questions, particularly if your question is slightly different in the details, but hopefully users will link to related questions to keep the information on this site easily searchable."
 
 #: templates/faq.html:21
 msgid "What questions should I avoid asking?"
 msgstr "What kinds of questions should be avoided?"
 
 #: templates/faq.html:22
-msgid ""
-"Please avoid asking questions that are not relevant to this community, too "
-"subjective and argumentative."
-msgstr ""
+msgid "Please avoid asking questions that are not relevant to this community, too subjective and argumentative."
+msgstr "Please avoid asking questions that are not relevant to Python in the sciences and related fields. Do not ask questions that require extended back-and-forth discussion. Installation problems are typically best handled on a <a href=\"http://www.scipy.org/Mailing_Lists\">mailing list</a> where helpers can have a back-and-forth discussion with you as you try their recommendations and provide details about your system.A summary of the end results of these discussions, however, may make an excellent question and answer pair on this site."
 
 #: templates/faq.html:27
 msgid "What should I avoid in my answers?"
 msgstr ""
 
 #: templates/faq.html:28
-msgid ""
-"is a Q&A site, not a discussion group. Therefore - please avoid having "
-"discussions in your answers, comment facility allows some space for brief "
-"discussions."
-msgstr ""
-"is a <strong>question and answer</strong> site - <strong>it is not a "
-"discussion group</strong>. Please avoid holding debates in your answers as "
-"they tend to dilute the essense of questions and answers. For the brief "
-"discussions please use commenting facility."
+msgid "is a Q&A site, not a discussion group. Therefore - please avoid having discussions in your answers, comment facility allows some space for brief discussions."
+msgstr "is a <strong>question and answer</strong> site, not a discussion group. Please avoid holding debates in your answers as they tend to dilute the essense of questions and answers. For the brief discussions that are necessary to clarify questions and answers please use the commenting facility.</p><p>Above all, be nice."
 
 #: templates/faq.html:32
 msgid "Who moderates this community?"
@@ -1185,9 +1254,7 @@ msgid "This website is moderated by the users."
 msgstr ""
 
 #: templates/faq.html:35
-msgid ""
-"The reputation system allows users earn the authorization to perform a "
-"variety of moderation tasks."
+msgid "The reputation system allows users earn the authorization to perform a variety of moderation tasks."
 msgstr ""
 
 #: templates/faq.html:40
@@ -1196,24 +1263,14 @@ msgstr ""
 
 #: templates/faq.html:41
 msgid "Rep system summary"
-msgstr ""
-"When a question or answer is upvoted, the user who posted them will gain "
-"some points, which are called \"reputation points\". These points serve as a "
-"rough measure of the community trust to him/her. Various moderation tasks "
-"are gradually assigned to the users based on those points."
+msgstr "When a question or answer is upvoted, the user who posted them will gain some points, which are called “reputation points”. These points serve as a rough measure of the community trust to him/her. Various moderation tasks are gradually assigned to the users based on those points."
 
 #: templates/faq.html:42
-msgid ""
-"For example, if you ask an interesting question or give a helpful answer, "
-"your input will be upvoted. On the other hand if the answer is misleading - "
-"it will be downvoted. Each vote in favor will generate <strong>10</strong> "
-"points, each vote against will subtract <strong>2</strong> points. There is "
-"a limit of <strong>200</strong> points that can be accumulated per question "
-"or answer. The table below explains reputation point requirements for each "
-"type of moderation task."
-msgstr ""
+msgid "For example, if you ask an interesting question or give a helpful answer, your input will be upvoted. On the other hand if the answer is misleading - it will be downvoted. Each vote in favor will generate <strong>10</strong> points, each vote against will subtract <strong>2</strong> points. There is a limit of <strong>200</strong> points that can be accumulated per question or answer. The table below explains reputation point requirements for each type of moderation task."
+msgstr "For example, if you ask an interesting question or give a helpful answer, your input will be upvoted. On the other hand if the answer is misleading, it will be downvoted. Each vote in favor will generate <strong>10</strong> points, each vote against will subtract <strong>2</strong> points. There is a limit of <strong>200</strong> points that can be accumulated per question or answer. The table below explains reputation point requirements for each type of moderation task."
 
-#: templates/faq.html:53 templates/user_votes.html:14
+#: templates/faq.html:53
+#: templates/user_votes.html:14
 msgid "upvote"
 msgstr ""
 
@@ -1225,7 +1282,8 @@ msgstr ""
 msgid "add comments"
 msgstr ""
 
-#: templates/faq.html:66 templates/user_votes.html:16
+#: templates/faq.html:66
+#: templates/user_votes.html:16
 msgid "downvote"
 msgstr ""
 
@@ -1263,19 +1321,7 @@ msgstr "How to validate email and why?"
 
 #: templates/faq.html:102
 msgid "how to validate email info"
-msgstr ""
-"<form style='margin:0;padding:0;' action='/email/sendkey/'><p><span class="
-"\"bigger strong\">How?</span> If you have just set or changed your email "
-"address - <strong>check your email and click the included link</strong>."
-"<br>The link contains a key generated specifically for you. You can also "
-"<button style='display:inline' type='submit'><strong>get a new key</strong></"
-"button> and check your email again.</p></form><span class=\"bigger strong"
-"\">Why?</span> Email validation is required to make sure that <strong>only "
-"you can post messages</strong> on your behalf and to <strong>minimize spam</"
-"strong> posts.<br>With email you can <strong>subscribe for updates</strong> "
-"on the most interesting questions. Also, when you sign up for the first time "
-"- create a unique <a href='/faq#gravatar'><strong>gravatar</strong></a> "
-"personal image.</p>"
+msgstr "<form style='margin:0;padding:0;' action='/email/sendkey/'><p><span class=\"bigger strong\">How?</span> If you have just set or changed your email address - <strong>check your email and click the included link</strong>.<br>The link contains a key generated specifically for you. You can also <button style='display:inline' type='submit'><strong>get a new key</strong></button> and check your email again.</p></form><span class=\"bigger strong\">Why?</span> Email validation is required to make sure that <strong>only you can post messages</strong> on your behalf and to <strong>minimize spam</strong> posts.<br>With email you can <strong>subscribe for updates</strong> on the most interesting questions. Also, when you sign up for the first time - create a unique <a href='/faq#gravatar'><strong>gravatar</strong></a> personal image.</p>"
 
 #: templates/faq.html:106
 msgid "what is gravatar"
@@ -1283,23 +1329,14 @@ msgstr "What is gravatar?"
 
 #: templates/faq.html:107
 msgid "gravatar faq info"
-msgstr ""
-"<strong>Gravatar</strong> means <strong>g</strong>lobally <strong>r</"
-"strong>ecognized <strong>avatar</strong> - your unique avatar image "
-"associated with your email address. It's simply a picture that shows next to "
-"your posts on the websites that support gravatar protocol. By default gravar "
-"appears as a square filled with a snowflake-like figure. You can <strong>set "
-"your image</strong> at <a href='http://gravatar.com'><strong>gravatar.com</"
-"strong></a>"
+msgstr "<strong>Gravatar</strong> means <strong>g</strong>lobally <strong>r</strong>ecognized <strong>avatar</strong> - your unique avatar image associated with your email address. It's simply a picture that shows next to your posts on the websites that support gravatar protocol. By default gravar appears as a square filled with a snowflake-like figure. You can <strong>set your image</strong> at <a href='http://gravatar.com'><strong>gravatar.com</strong></a>"
 
 #: templates/faq.html:110
 msgid "To register, do I need to create new password?"
 msgstr ""
 
 #: templates/faq.html:111
-msgid ""
-"No, you don't have to. You can login through any service that supports "
-"OpenID, e.g. Google, Yahoo, AOL, etc."
+msgid "No, you don't have to. You can login through any service that supports OpenID, e.g. Google, Yahoo, AOL, etc."
 msgstr ""
 
 #: templates/faq.html:112
@@ -1312,13 +1349,10 @@ msgstr ""
 
 #: templates/faq.html:118
 msgid "Goal of this site is..."
-msgstr ""
+msgstr "SciPy Advice aims to be an efficient exchange of information about the use of <a href=\"http://www.python.org\">Python</a> in the sciences."
 
 #: templates/faq.html:118
-msgid ""
-"So questions and answers can be edited like wiki pages by experienced users "
-"of this site and this improves the overall quality of the knowledge base "
-"content."
+msgid "So questions and answers can be edited like wiki pages by experienced users of this site and this improves the overall quality of the knowledge base content."
 msgstr ""
 
 #: templates/faq.html:119
@@ -1331,23 +1365,28 @@ msgstr ""
 
 #: templates/faq.html:124
 msgid "Please ask your question, help make our community better!"
-msgstr ""
-"Please <a href=\"/questions/ask\">ask</a> your question, help make our "
-"community better!"
+msgstr "If you have questions or comments about the site or need help using the site, you can email us on the <a href=\"http://mail.scipy.org/mailman/listinfo/scipy-user\">scipy-users mailing list</a>."
 
-#: templates/faq.html:126 templates/header.html:29 templates/header.html.py:63
+#: templates/faq.html:126
+#: templates/header.html:29
+#: templates/header.html.py:63
 msgid "questions"
 msgstr ""
 
-#: templates/faq.html:126 templates/index.html:123
+#: templates/faq.html:126
+#: templates/index.html:123
 msgid "."
 msgstr ""
 
-#: templates/footer.html:8 templates/header.html:14 templates/index.html:83
+#: templates/footer.html:8
+#: templates/header.html:14
+#: templates/index.html:83
 msgid "about"
 msgstr ""
 
-#: templates/footer.html:9 templates/header.html:15 templates/index.html:84
+#: templates/footer.html:9
+#: templates/header.html:15
+#: templates/index.html:84
 #: templates/question_edit_tips.html:16
 msgid "faq"
 msgstr ""
@@ -1376,7 +1415,8 @@ msgstr ""
 msgid "logout"
 msgstr ""
 
-#: templates/header.html:12 templates/authopenid/signup.html:41
+#: templates/header.html:12
+#: templates/authopenid/signup.html:41
 msgid "login"
 msgstr ""
 
@@ -1384,7 +1424,8 @@ msgstr ""
 msgid "back to home page"
 msgstr ""
 
-#: templates/header.html:31 templates/header.html.py:65
+#: templates/header.html:31
+#: templates/header.html.py:65
 msgid "users"
 msgstr ""
 
@@ -1412,7 +1453,8 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: templates/index.html:22 templates/questions.html:7
+#: templates/index.html:22
+#: templates/questions.html:7
 msgid "Questions"
 msgstr ""
 
@@ -1420,24 +1462,29 @@ msgstr ""
 msgid "last updated questions"
 msgstr ""
 
-#: templates/index.html:24 templates/questions.html:25
+#: templates/index.html:24
+#: templates/questions.html:25
 #: templates/unanswered.html:20
 msgid "newest"
 msgstr ""
 
-#: templates/index.html:25 templates/questions.html:27
+#: templates/index.html:25
+#: templates/questions.html:27
 msgid "hottest questions"
 msgstr ""
 
-#: templates/index.html:25 templates/questions.html:27
+#: templates/index.html:25
+#: templates/questions.html:27
 msgid "hottest"
 msgstr ""
 
-#: templates/index.html:26 templates/questions.html:28
+#: templates/index.html:26
+#: templates/questions.html:28
 msgid "most voted questions"
 msgstr ""
 
-#: templates/index.html:26 templates/questions.html:28
+#: templates/index.html:26
+#: templates/questions.html:28
 msgid "most voted"
 msgstr ""
 
@@ -1445,15 +1492,21 @@ msgstr ""
 msgid "all questions"
 msgstr ""
 
-#: templates/index.html:47 templates/questions.html:45
-#: templates/unanswered.html:36 templates/users_questions.html:35
+#: templates/index.html:47
+#: templates/questions.html:45
+#: templates/unanswered.html:36
+#: templates/users_questions.html:35
 msgid "answers"
 msgstr ""
 
-#: templates/index.html:69 templates/question.html:499
-#: templates/questions.html:84 templates/questions.html.py:156
-#: templates/tags.html:49 templates/unanswered.html:75
-#: templates/unanswered.html.py:106 templates/users_questions.html:52
+#: templates/index.html:69
+#: templates/question.html:499
+#: templates/questions.html:84
+#: templates/questions.html.py:156
+#: templates/tags.html:49
+#: templates/unanswered.html:75
+#: templates/unanswered.html.py:106
+#: templates/users_questions.html:52
 msgid "see questions tagged"
 msgstr ""
 
@@ -1465,12 +1518,14 @@ msgstr ""
 msgid "Recent tags"
 msgstr ""
 
-#: templates/index.html:94 templates/question.html:125
+#: templates/index.html:94
+#: templates/question.html:125
 #, python-format
 msgid "see questions tagged '%(tagname)s'"
 msgstr ""
 
-#: templates/index.html:97 templates/index.html.py:123
+#: templates/index.html:97
+#: templates/index.html.py:123
 msgid "popular tags"
 msgstr "tags"
 
@@ -1510,18 +1565,14 @@ msgstr ""
 msgid "list of unanswered questions"
 msgstr "unanswered questions"
 
-#: templates/logout.html:6 templates/logout.html.py:17
+#: templates/logout.html:6
+#: templates/logout.html.py:17
 msgid "Logout"
 msgstr ""
 
 #: templates/logout.html:20
-msgid ""
-"As a registered user you can login with your OpenID, log out of the site or "
-"permanently remove your account."
-msgstr ""
-"Clicking <strong>Logout</strong> will log you out from the Q&amp;A forum.</"
-"p><p>If you wish to sign off completely - please make sure to log out from "
-"your OpenID provider."
+msgid "As a registered user you can login with your OpenID, log out of the site or permanently remove your account."
+msgstr "Clicking <strong>Logout</strong> will log you out from the Q&amp;A forum.</p><p>If you wish to sign off completely - please make sure to log out from your OpenID provider."
 
 #: templates/logout.html:21
 msgid "Logout now"
@@ -1531,7 +1582,8 @@ msgstr "Logout Now"
 msgid "posts per page"
 msgstr ""
 
-#: templates/paginator.html:6 templates/paginator.html.py:7
+#: templates/paginator.html:6
+#: templates/paginator.html.py:7
 msgid "previous"
 msgstr ""
 
@@ -1539,11 +1591,13 @@ msgstr ""
 msgid "current page"
 msgstr ""
 
-#: templates/paginator.html:22 templates/paginator.html.py:29
+#: templates/paginator.html:22
+#: templates/paginator.html.py:29
 msgid "page number "
 msgstr ""
 
-#: templates/paginator.html:22 templates/paginator.html.py:29
+#: templates/paginator.html:22
+#: templates/paginator.html.py:29
 msgid "number - make blank in english"
 msgstr ""
 
@@ -1551,7 +1605,8 @@ msgstr ""
 msgid "next page"
 msgstr ""
 
-#: templates/privacy.html:6 templates/privacy.html.py:11
+#: templates/privacy.html:6
+#: templates/privacy.html.py:11
 msgid "Privacy policy"
 msgstr ""
 
@@ -1595,35 +1650,45 @@ msgstr ""
 msgid "how privacy policies can be changed"
 msgstr ""
 
-#: templates/question.html:72 templates/question.html.py:73
-#: templates/question.html:85 templates/question.html.py:87
+#: templates/question.html:72
+#: templates/question.html.py:73
+#: templates/question.html:85
+#: templates/question.html.py:87
 msgid "i like this post (click again to cancel)"
 msgstr ""
 
-#: templates/question.html:75 templates/question.html.py:89
+#: templates/question.html:75
+#: templates/question.html.py:89
 #: templates/question.html:289
 msgid "current number of votes"
 msgstr ""
 
-#: templates/question.html:80 templates/question.html.py:81
-#: templates/question.html:94 templates/question.html.py:95
+#: templates/question.html:80
+#: templates/question.html.py:81
+#: templates/question.html:94
+#: templates/question.html.py:95
 msgid "i dont like this post (click again to cancel)"
 msgstr ""
 
-#: templates/question.html:100 templates/question.html.py:101
+#: templates/question.html:100
+#: templates/question.html.py:101
 msgid "mark this question as favorite (click again to cancel)"
 msgstr ""
 
-#: templates/question.html:107 templates/question.html.py:108
+#: templates/question.html:107
+#: templates/question.html.py:108
 msgid "remove favorite mark from this question (click again to restore mark)"
 msgstr ""
 
-#: templates/question.html:134 templates/question.html.py:322
-#: templates/revisions_answer.html:53 templates/revisions_question.html:53
+#: templates/question.html:134
+#: templates/question.html.py:322
+#: templates/revisions_answer.html:53
+#: templates/revisions_question.html:53
 msgid "edit"
 msgstr ""
 
-#: templates/question.html:138 templates/question.html.py:332
+#: templates/question.html:138
+#: templates/question.html.py:332
 msgid "delete"
 msgstr ""
 
@@ -1635,38 +1700,43 @@ msgstr ""
 msgid "close"
 msgstr ""
 
-#: templates/question.html:154 templates/question.html.py:345
-msgid ""
-"report as offensive (i.e containing spam, advertising, malicious text, etc.)"
+#: templates/question.html:154
+#: templates/question.html.py:345
+msgid "report as offensive (i.e containing spam, advertising, malicious text, etc.)"
 msgstr ""
 
-#: templates/question.html:155 templates/question.html.py:346
+#: templates/question.html:155
+#: templates/question.html.py:346
 msgid "flag offensive"
 msgstr ""
 
-#: templates/question.html:167 templates/question.html.py:355
-#: templates/revisions_answer.html:65 templates/revisions_question.html:65
+#: templates/question.html:167
+#: templates/question.html.py:355
+#: templates/revisions_answer.html:65
+#: templates/revisions_question.html:65
 msgid "updated"
 msgstr ""
 
-#: templates/question.html:216 templates/question.html.py:402
-#: templates/revisions_answer.html:63 templates/revisions_question.html:63
+#: templates/question.html:216
+#: templates/question.html.py:402
+#: templates/revisions_answer.html:63
+#: templates/revisions_question.html:63
 msgid "asked"
 msgstr ""
 
-#: templates/question.html:246 templates/question.html.py:429
+#: templates/question.html:246
+#: templates/question.html.py:429
 msgid "comments"
 msgstr ""
 
-#: templates/question.html:247 templates/question.html.py:430
+#: templates/question.html:247
+#: templates/question.html.py:430
 msgid "add comment"
 msgstr ""
 
 #: templates/question.html:260
 #, python-format
-msgid ""
-"The question has been closed for the following reason \"%(question."
-"get_close_reason_display)s\" by"
+msgid "The question has been closed for the following reason \"%(question.get_close_reason_display)s\" by"
 msgstr ""
 
 #: templates/question.html:262
@@ -1674,7 +1744,8 @@ msgstr ""
 msgid "close date %(question.closed_at)s"
 msgstr ""
 
-#: templates/question.html:269 templates/user_stats.html:13
+#: templates/question.html:269
+#: templates/user_stats.html:13
 msgid "Answers"
 msgstr " Answers"
 
@@ -1702,19 +1773,23 @@ msgstr ""
 msgid "popular answers"
 msgstr "most voted"
 
-#: templates/question.html:287 templates/question.html.py:288
+#: templates/question.html:287
+#: templates/question.html.py:288
 msgid "i like this answer (click again to cancel)"
 msgstr ""
 
-#: templates/question.html:294 templates/question.html.py:295
+#: templates/question.html:294
+#: templates/question.html.py:295
 msgid "i dont like this answer (click again to cancel)"
 msgstr ""
 
-#: templates/question.html:300 templates/question.html.py:301
+#: templates/question.html:300
+#: templates/question.html.py:301
 msgid "mark this answer as favorite (click again to undo)"
 msgstr ""
 
-#: templates/question.html:306 templates/question.html.py:307
+#: templates/question.html:306
+#: templates/question.html.py:307
 msgid "the author of the question has selected this answer as correct"
 msgstr ""
 
@@ -1736,9 +1811,7 @@ msgstr ""
 
 #: templates/question.html:456
 msgid "you can answer anonymously and then login"
-msgstr ""
-"<span class='strong big'>You are now not logged in</span> but you can answer "
-"first and then login"
+msgstr "<span class='strong big'>You are now not logged in</span> but you can answer first and then login"
 
 #: templates/question.html:479
 msgid "Answer the question"
@@ -1760,7 +1833,8 @@ msgstr "Tags"
 msgid "question asked"
 msgstr "Asked"
 
-#: templates/question.html:504 templates/question.html.py:510
+#: templates/question.html:504
+#: templates/question.html.py:510
 #: templates/user_info.html:51
 msgid "ago"
 msgstr ""
@@ -1781,7 +1855,8 @@ msgstr "Last updated"
 msgid "Related questions"
 msgstr ""
 
-#: templates/question_edit.html:4 templates/question_edit.html.py:65
+#: templates/question_edit.html:4
+#: templates/question_edit.html.py:65
 msgid "Edit question"
 msgstr ""
 
@@ -1797,7 +1872,8 @@ msgstr ""
 msgid "please try provide enough details"
 msgstr "provide enough details"
 
-#: templates/question_retag.html:3 templates/question_retag.html.py:52
+#: templates/question_retag.html:3
+#: templates/question_retag.html.py:52
 msgid "Change tags"
 msgstr ""
 
@@ -1829,7 +1905,8 @@ msgstr ""
 msgid "All questions"
 msgstr ""
 
-#: templates/questions.html:25 templates/unanswered.html:20
+#: templates/questions.html:25
+#: templates/unanswered.html:20
 msgid "most recently asked questions"
 msgstr ""
 
@@ -1853,12 +1930,10 @@ msgid_plural ""
 "\t\t\t"
 msgstr[0] ""
 "\n"
-"<div class=\"questions-count\">%(q_num)s</div><p>question tagged</p><p><span "
-"class=\"tag\">%(tagname)s</span></p>"
+"<div class=\"questions-count\">%(q_num)s</div><p>question tagged</p><p><span class=\"tag\">%(tagname)s</span></p>"
 msgstr[1] ""
 "\n"
-"<div class=\"questions-count\">%(q_num)s</div><p>questions tagged</p><div "
-"class=\"tags\"><span class=\"tag\">%(tagname)s</span></div>"
+"<div class=\"questions-count\">%(q_num)s</div><p>questions tagged</p><div class=\"tags\"><span class=\"tag\">%(tagname)s</span></div>"
 
 #: templates/questions.html:116
 #, python-format
@@ -1872,14 +1947,10 @@ msgid_plural ""
 "\t\t\t\t"
 msgstr[0] ""
 "\n"
-"<div class=\"questions-count\">%(q_num)s</div><p>question with title "
-"containing <strong><span class=\"darkred\">%(searchtitle)s</span></strong></"
-"p>"
+"<div class=\"questions-count\">%(q_num)s</div><p>question with title containing <strong><span class=\"darkred\">%(searchtitle)s</span></strong></p>"
 msgstr[1] ""
 "\n"
-"<div class=\"questions-count\">%(q_num)s</div><p>questions with title "
-"containing <strong><span class=\"darkred\">%(searchtitle)s</span></strong></"
-"p>"
+"<div class=\"questions-count\">%(q_num)s</div><p>questions with title containing <strong><span class=\"darkred\">%(searchtitle)s</span></strong></p>"
 
 #: templates/questions.html:122
 #, python-format
@@ -1926,11 +1997,13 @@ msgstr ""
 msgid "Most voted questions are shown first."
 msgstr ""
 
-#: templates/questions.html:153 templates/unanswered.html:102
+#: templates/questions.html:153
+#: templates/unanswered.html:102
 msgid "Related tags"
 msgstr "Tags"
 
-#: templates/reopen.html:6 templates/reopen.html.py:16
+#: templates/reopen.html:6
+#: templates/reopen.html.py:16
 msgid "Reopen question"
 msgstr ""
 
@@ -1958,12 +2031,15 @@ msgstr ""
 msgid "Reopen this question"
 msgstr ""
 
-#: templates/revisions_answer.html:7 templates/revisions_answer.html.py:36
-#: templates/revisions_question.html:8 templates/revisions_question.html:36
+#: templates/revisions_answer.html:7
+#: templates/revisions_answer.html.py:36
+#: templates/revisions_question.html:8
+#: templates/revisions_question.html:36
 msgid "Revision history"
 msgstr ""
 
-#: templates/tags.html:6 templates/tags.html.py:30
+#: templates/tags.html:6
+#: templates/tags.html.py:30
 msgid "Tag list"
 msgstr ""
 
@@ -1989,22 +2065,21 @@ msgstr ""
 
 #: templates/tags.html:39
 msgid "all tags - make this empty in english"
-msgstr ""
+msgstr " "
 
 #: templates/tags.html:42
 msgid "Nothing found"
 msgstr ""
 
-#: templates/unanswered.html:7 templates/unanswered.html.py:18
+#: templates/unanswered.html:7
+#: templates/unanswered.html.py:18
 msgid "Unanswered questions"
 msgstr ""
 
 #: templates/unanswered.html:97
 #, python-format
 msgid "have %(num_q)s unanswered questions"
-msgstr ""
-"<div class=\"questions-count\">%(num_q)s</div><strong>unanswered</strong> "
-"questions"
+msgstr "<div class=\"questions-count\">%(num_q)s</div><strong>unanswered</strong> questions"
 
 #: templates/user_edit.html:6
 msgid "Edit user profile"
@@ -2022,7 +2097,8 @@ msgstr ""
 msgid "avatar"
 msgstr "<a href='/faq#gravatar'>gravatar</a>"
 
-#: templates/user_edit.html:36 templates/user_info.html:31
+#: templates/user_edit.html:36
+#: templates/user_info.html:31
 msgid "Registered user"
 msgstr ""
 
@@ -2165,7 +2241,8 @@ msgstr ""
 msgid "settings"
 msgstr ""
 
-#: templates/users.html:6 templates/users.html.py:24
+#: templates/users.html:6
+#: templates/users.html.py:24
 msgid "Users"
 msgstr ""
 
@@ -2214,23 +2291,19 @@ msgstr "Change Email"
 #: templates/authopenid/changeemail.html:10
 #, python-format
 msgid "change %(email)s info"
-msgstr ""
-"<span class=\"strong big\">Enter your new email into the box below</span> if "
-"you'd like to use another email for <strong>update subscriptions</strong>."
-"<br>Currently you are using <strong>%(email)s</strong>"
+msgstr "<span class=\"strong big\">Enter your new email into the box below</span> if you'd like to use another email for <strong>update subscriptions</strong>.<br>Currently you are using <strong>%(email)s</strong>"
 
 #: templates/authopenid/changeemail.html:13
 #: templates/authopenid/changeopenid.html:14
-#: templates/authopenid/changepw.html:19 templates/authopenid/delete.html:15
+#: templates/authopenid/changepw.html:19
+#: templates/authopenid/delete.html:15
 #: templates/authopenid/delete.html:25
 msgid "Please correct errors below:"
 msgstr ""
 
 #: templates/authopenid/changeemail.html:30
 msgid "Your new Email"
-msgstr ""
-"<strong>Your new Email:</strong> (will <strong>not</strong> be shown to "
-"anyone, must be valid)"
+msgstr "<strong>Your new Email:</strong> (will <strong>not</strong> be shown to anyone, must be valid)"
 
 #: templates/authopenid/changeemail.html:31
 #: templates/authopenid/signin.html:154
@@ -2244,13 +2317,7 @@ msgstr ""
 #: templates/authopenid/changeemail.html:45
 #, python-format
 msgid "validate %(email)s info"
-msgstr ""
-"<span class=\"strong big\">An email with a validation link has been sent to %"
-"(email)s.</span> Please <strong>follow the emailed link</strong> with your "
-"web browser. Email validation is necessary to help insure the proper use of "
-"email on <span class=\"orange\">Q&amp;A</span> forum. If you would like "
-"to use <strong>another email</strong>, please <a href=\"/email/change/"
-"\"><strong>change it again</strong></a>."
+msgstr "<span class=\"strong big\">An email with a validation link has been sent to %(email)s.</span> Please <strong>follow the emailed link</strong> with your web browser. Email validation is necessary to help insure the proper use of email on <span class=\"orange\">Q&amp;A</span> forum. If you would like to use <strong>another email</strong>, please <a href=\"/email/change/\"><strong>change it again</strong></a>."
 
 #: templates/authopenid/changeemail.html:50
 msgid "Email not changed"
@@ -2259,11 +2326,7 @@ msgstr ""
 #: templates/authopenid/changeemail.html:53
 #, python-format
 msgid "old %(email)s kept"
-msgstr ""
-"<span class=\"strong big\">Your email address %(email)s has not been changed."
-"</span> If you decide to change it later - you can always do it by editing "
-"it in your user profile or by using the <a href=\"/email/change/"
-"\"><strong>previous form</strong></a> again."
+msgstr "<span class=\"strong big\">Your email address %(email)s has not been changed.</span> If you decide to change it later - you can always do it by editing it in your user profile or by using the <a href=\"/email/change/\"><strong>previous form</strong></a> again."
 
 #: templates/authopenid/changeemail.html:58
 msgid "Email changed"
@@ -2272,11 +2335,7 @@ msgstr ""
 #: templates/authopenid/changeemail.html:61
 #, python-format
 msgid "your current %(email)s can be used for this"
-msgstr ""
-"<span class='big strong'>Your email address is now set to %(email)s.</span> "
-"Updates on the questions that you like most will be sent to this address. "
-"Email notifications are sent once a day or less frequently - only when there "
-"are any news."
+msgstr "<span class='big strong'>Your email address is now set to %(email)s.</span> Updates on the questions that you like most will be sent to this address. Email notifications are sent once a day or less frequently - only when there are any news."
 
 #: templates/authopenid/changeemail.html:66
 msgid "Email verified"
@@ -2284,12 +2343,7 @@ msgstr ""
 
 #: templates/authopenid/changeemail.html:69
 msgid "thanks for verifying email"
-msgstr ""
-"<span class=\"big strong\">Thank you for verifying your email!</span> Now "
-"you can <strong>ask</strong> and <strong>answer</strong> questions. Also if "
-"you find a very interesting question you can <strong>subscribe for the "
-"updates</strong> - then will be notified about changes <strong>once a day</"
-"strong> or less frequently."
+msgstr "<span class=\"big strong\">Thank you for verifying your email!</span> Now you can <strong>ask</strong> and <strong>answer</strong> questions. Also if you find a very interesting question you can <strong>subscribe for the updates</strong> - then will be notified about changes <strong>once a day</strong> or less frequently."
 
 #: templates/authopenid/changeemail.html:74
 msgid "email key not sent"
@@ -2298,18 +2352,14 @@ msgstr "Validation email not sent"
 #: templates/authopenid/changeemail.html:77
 #, python-format
 msgid "email key not sent %(email)s change email here %(change_link)s"
-msgstr ""
-"<span class='big strong'>Your current email address %(email)s has been "
-"validated before</span> so the new key was not sent. You can <a href='%"
-"(change_link)s'>change</a> email used for update subscriptions if necessary."
+msgstr "<span class='big strong'>Your current email address %(email)s has been validated before</span> so the new key was not sent. You can <a href='%(change_link)s'>change</a> email used for update subscriptions if necessary."
 
 #: templates/authopenid/changeopenid.html:8
 msgid "Account: change OpenID URL"
 msgstr ""
 
 #: templates/authopenid/changeopenid.html:12
-msgid ""
-"This is where you can change your OpenID URL. Make sure you remember it!"
+msgid "This is where you can change your OpenID URL. Make sure you remember it!"
 msgstr ""
 
 #: templates/authopenid/changeopenid.html:29
@@ -2340,7 +2390,8 @@ msgstr ""
 msgid "New password again"
 msgstr ""
 
-#: templates/authopenid/changepw.html:30 templates/authopenid/settings.html:29
+#: templates/authopenid/changepw.html:30
+#: templates/authopenid/settings.html:29
 msgid "Change password"
 msgstr ""
 
@@ -2355,19 +2406,14 @@ msgstr "New user signup"
 #: templates/authopenid/complete.html:12
 #, python-format
 msgid "register new %(provider)s account info"
-msgstr ""
-"<p><span class=\"big strong\">You are here for the first time with your %"
-"(provider)s login.</span> Please create your <strong>screen name</strong> "
-"and save your <strong>email</strong> address. Saved email address will let "
-"you <strong>subscribe for the updates</strong> on the most interesting "
-"questions and will be used to create and retrieve your unique avatar image - "
-"<a href='/faq#gravatar'><strong>gravatar</strong></a>."
+msgstr "<p><span class=\"big strong\">You are here for the first time with your %(provider)s login.</span> Please create your <strong>screen name</strong> and save your <strong>email</strong> address. Saved email address will let you <strong>subscribe for the updates</strong> on the most interesting questions and will be used to create and retrieve your unique avatar image - <a href='/faq#gravatar'><strong>gravatar</strong></a>."
 
 #: templates/authopenid/complete.html:14
 msgid "This account already exists, please use another."
 msgstr ""
 
-#: templates/authopenid/complete.html:19 templates/authopenid/complete.html:32
+#: templates/authopenid/complete.html:19
+#: templates/authopenid/complete.html:32
 #: templates/authopenid/signin.html:138
 msgid "Sorry, looks like we have some errors:"
 msgstr ""
@@ -2378,9 +2424,7 @@ msgstr "<strong>Screen Name</strong> (<i>will be shown to others</i>)"
 
 #: templates/authopenid/complete.html:48
 msgid "Email address label"
-msgstr ""
-"<strong>Email Address</strong> (<i>will <strong>not</strong> be shared with "
-"anyone, must be valid</i>)"
+msgstr "<strong>Email Address</strong> (<i>will <strong>not</strong> be shared with anyone, must be valid</i>)"
 
 #: templates/authopenid/complete.html:49
 msgid "create account"
@@ -2394,7 +2438,8 @@ msgstr ""
 msgid "user name"
 msgstr ""
 
-#: templates/authopenid/complete.html:58 templates/authopenid/signin.html:128
+#: templates/authopenid/complete.html:58
+#: templates/authopenid/signin.html:128
 msgid "password"
 msgstr ""
 
@@ -2402,7 +2447,8 @@ msgstr ""
 msgid "Register"
 msgstr ""
 
-#: templates/authopenid/complete.html:62 templates/authopenid/signin.html:156
+#: templates/authopenid/complete.html:62
+#: templates/authopenid/signin.html:156
 msgid "Forgot your password?"
 msgstr ""
 
@@ -2441,9 +2487,7 @@ msgid "Account: delete account"
 msgstr ""
 
 #: templates/authopenid/delete.html:13
-msgid ""
-"Note: After deleting your account, anyone will be able to register this "
-"username."
+msgid "Note: After deleting your account, anyone will be able to register this username."
 msgstr ""
 
 #: templates/authopenid/delete.html:17
@@ -2485,7 +2529,8 @@ msgid ""
 "for any inconvenience"
 msgstr ""
 
-#: templates/authopenid/sendpw.html:4 templates/authopenid/sendpw.html.py:8
+#: templates/authopenid/sendpw.html:4
+#: templates/authopenid/sendpw.html.py:8
 msgid "Send new password"
 msgstr ""
 
@@ -2494,9 +2539,7 @@ msgid "Lost your password? No problem - here you can reset it."
 msgstr ""
 
 #: templates/authopenid/sendpw.html:13
-msgid ""
-"Please enter your username below and new password will be sent to your "
-"registered e-mail"
+msgid "Please enter your username below and new password will be sent to your registered e-mail"
 msgstr ""
 
 #: templates/authopenid/sendpw.html:28
@@ -2512,9 +2555,7 @@ msgid "return to login"
 msgstr ""
 
 #: templates/authopenid/sendpw.html:33
-msgid ""
-"Note: your new password will be activated only after you click the "
-"activation link in the email message"
+msgid "Note: your new password will be activated only after you click the activation link in the email message"
 msgstr ""
 
 #: templates/authopenid/sendpw_email.txt:2
@@ -2560,7 +2601,8 @@ msgstr ""
 msgid "Erase your username and all your data from website"
 msgstr ""
 
-#: templates/authopenid/signin.html:4 templates/authopenid/signin.html:21
+#: templates/authopenid/signin.html:4
+#: templates/authopenid/signin.html:21
 msgid "User login"
 msgstr "User login"
 
@@ -2568,14 +2610,11 @@ msgstr "User login"
 #, python-format
 msgid ""
 "\n"
-"                Your answer to %(title)s %(summary)s will be posted once you "
-"log in\n"
+"                Your answer to %(title)s %(summary)s will be posted once you log in\n"
 "                "
 msgstr ""
 "\n"
-"<span class=\"strong big\">Your answer to </span> <i>\"<strong>%(title)s</"
-"strong> %(summary)s...\"</i> <span class=\"strong big\">is saved and will be "
-"posted once you log in.</span>"
+"<span class=\"strong big\">Your answer to </span> <i>\"<strong>%(title)s</strong> %(summary)s...\"</i> <span class=\"strong big\">is saved and will be posted once you log in.</span>"
 
 #: templates/authopenid/signin.html:35
 #, python-format
@@ -2583,45 +2622,29 @@ msgid ""
 "Your question \n"
 "                %(title)s %(summary)s will be posted once you log in\n"
 "                "
-msgstr ""
-"<span class=\"strong big\">Your question</span> <i>\"<strong>%(title)s</"
-"strong> %(summary)s...\"</i> <span class=\"strong big\">is saved and will be "
-"posted once you log in.</span>"
+msgstr "<span class=\"strong big\">Your question</span> <i>\"<strong>%(title)s</strong> %(summary)s...\"</i> <span class=\"strong big\">is saved and will be posted once you log in.</span>"
 
 #: templates/authopenid/signin.html:40
 msgid "Click to sign in through any of these services."
-msgstr ""
-"<p><span class=\"big strong\">Please select your favorite login method below.</span>"
-"</p><p><font color=\"gray\">External login services use <a "
-"href=\"http://openid.net\"><b>OpenID</b></a> technology that increases "
-"security of your online identity and makes login process simpler. First option "
-"requires login name and password.</font></p>"
+msgstr "<p><span class=\"big strong\">Please select your favorite login method below.</span></p><p><font color=\"gray\">External login services use <a href=\"http://openid.net\"><b>OpenID</b></a> technology that increases security of your online identity and makes login process simpler. First option requires login name and password.</font></p>"
 
 #: templates/authopenid/signin.html:113
 msgid "Enter your <span id=\"enter_your_what\">Provider user name</span>"
-msgstr ""
-"<span class=\"big strong\">Enter your <span id=\"enter_your_what\">Provider "
-"user name</span></span><br><span class='grey'>(or select another login method above)</span>"
+msgstr "<span class=\"big strong\">Enter your <span id=\"enter_your_what\">Provider user name</span></span><br><span class='grey'>(or select another login method above)</span>"
 
 #: templates/authopenid/signin.html:120
-msgid ""
-"Enter your <a class=\"openid_logo\" href=\"http://openid.net\">OpenID</a> "
-"web address"
-msgstr ""
-"<span class=\"big strong\">Enter your <a class=\"openid_logo\" href=\"http://"
-"openid.net\">OpenID</a> web address</span><br><span class='grey'>(or choose another login "
-"method above)</span>"
+msgid "Enter your <a class=\"openid_logo\" href=\"http://openid.net\">OpenID</a> web address"
+msgstr "<span class=\"big strong\">Enter your <a class=\"openid_logo\" href=\"http://openid.net\">OpenID</a> web address</span><br><span class='grey'>(or choose another login method above)</span>"
 
-#: templates/authopenid/signin.html:122 templates/authopenid/signin.html:130
+#: templates/authopenid/signin.html:122
+#: templates/authopenid/signin.html:130
 #: templates/authopenid/signin.html:155
 msgid "Login"
 msgstr ""
 
 #: templates/authopenid/signin.html:125
 msgid "Enter your login name and password"
-msgstr ""
-"<span class='big strong'>Enter your forum login and password</span><br/>"
-"<span class='grey'>(or select your OpenID provider above)</span>"
+msgstr "<span class='big strong'>Enter your forum login and password</span><br/><span class='grey'>(or select your OpenID provider above)</span>"
 
 #: templates/authopenid/signin.html:126
 msgid "login name"
@@ -2629,9 +2652,7 @@ msgstr ""
 
 #: templates/authopenid/signin.html:134
 msgid "we support two login modes"
-msgstr ""
-"You can log in either through one of these services or traditionally - using "
-"local username/password."
+msgstr "You can log in either through one of these services or traditionally, using a local username/password."
 
 #: templates/authopenid/signin.html:152
 msgid "Use login name and password"
@@ -2659,9 +2680,7 @@ msgstr "You can safely re-use the same login for all OpenID-enabled websites."
 
 #: templates/authopenid/signin.html:175
 msgid "openid is widely adopted"
-msgstr ""
-"There are > 160,000,000 OpenID account in use. Over 10,000 sites are OpenID-"
-"enabled."
+msgstr "There are > 160,000,000 OpenID account in use. Over 10,000 sites are OpenID-enabled."
 
 #: templates/authopenid/signin.html:178
 msgid "openid is supported open standard"
@@ -2675,14 +2694,13 @@ msgstr ""
 msgid "Get OpenID"
 msgstr ""
 
-#: templates/authopenid/signup.html:4 templates/authopenid/signup.html.py:8
+#: templates/authopenid/signup.html:4
+#: templates/authopenid/signup.html.py:8
 msgid "Signup"
 msgstr ""
 
 #: templates/authopenid/signup.html:12
-msgid ""
-"We support two types of user registration: conventional username/password, "
-"and"
+msgid "We support two types of user registration: conventional username/password, and"
 msgstr ""
 
 #: templates/authopenid/signup.html:12
@@ -2713,23 +2731,3 @@ msgstr ""
 msgid "Login with your OpenID"
 msgstr ""
 
-#
-#~ msgid "editing tips"
-#~ msgstr "Tips"
-
-#~ msgid "Newest questions shown first."
-#~ msgstr ""
-#~ "Questions are sorted by <strong>entry date</strong>.Newest questions "
-#~ "shown first."
-
-#~ msgid ""
-#~ "please use space to separate tags (this enables autocomplete feature)"
-#~ msgstr "please use space to separate tags (uses autocomplete utility)"
-
-#~ msgid "select openid provider"
-#~ msgstr "1) Please select your id service provider."
-
-#~ msgid "verify openid link and login"
-#~ msgstr ""
-#~ "2) Please verify the OpenID URL (type your login name over {username}, if "
-#~ "present) and then log in."
