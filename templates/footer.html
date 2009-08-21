@@ -6,8 +6,11 @@
        <div class="footerLinks" >
             <a href="{% url about %}">{% trans "about" %}</a><span class="link-separator"> |</span>
             <a href="{% url faq %}">{% trans "faq" %}</a><span class="link-separator"> |</span>
-            <a href="{% url faq %}#contact">{% trans "contact us" %}</a><span class="link-separator"> |</span>
+            <a href="{% url faq %}#contact">{% trans "contact us" %}</a>
+            <!--
+            <span class="link-separator"> |</span>
             <a href="{% url privacy %}">{% trans "privacy policy" %}</a>
+            -->
         </div>
 	  <p style="margin-top:10px;">
          <a href="http://www.djangoproject.com/" target="_blank">
