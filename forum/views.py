@@ -1185,9 +1185,9 @@ def user_recent(request, user_id, user_view):
             self.summary = summary
             slug_title = slugify(title)
             if int(answer_id) > 0:
-                self.title_link = u'/%s%s/%s#%s' %(_('questions/'),question_id, slug_title, answer_id)
+                self.title_link = u'/%s%s/%s#%s' %(_('question/'),question_id, slug_title, answer_id)
             else:
-                self.title_link = u'/%s%s/%s' %(_('questions/'),question_id, slug_title)
+                self.title_link = u'/%s%s/%s' %(_('question/'),question_id, slug_title)
 
     class AwardEvent:
         def __init__(self, time, type, id):
@@ -1427,7 +1427,7 @@ def user_responses(request, user_id, user_view):
         def __init__(self, type, title, question_id, answer_id, time, username, user_id, content):
             self.type = type
             self.title = title
-            self.titlelink = u'/%s%s/%s#%s' % (_('questions/'), question_id, title, answer_id)
+            self.titlelink = u'/%s%s/%s#%s' % (_('question/'), question_id, slugify(title), answer_id)
             self.time = time
             self.userlink = u'/%s%s/%s/' % (_('users/'), user_id, username)
             self.username = username
