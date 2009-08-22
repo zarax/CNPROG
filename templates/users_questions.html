@@ -25,7 +25,7 @@
             <div class="favorites-empty"> </div>
         {% endif %}
     <div id="question-summary-{{question.id}}" class="question-summary narrow">
-        <a style="text-decoration: none;" href="{% url questions %}{{question.id}}/{{question.title|slugify}}">
+        <a style="text-decoration: none;" href="{% url question %}{{question.id}}/{{question.title|slugify}}">
             <span class="stats">
                 <span class="votes">
                     <span class="vote-count-post">{{question.vote_count|intcomma}}</span> 
