@@ -11,6 +11,7 @@ p{margin-bottom:13px; font-size:13px; line-height:140%;}
 a {color:#333333; text-decoration:none;}
 
 .badges a {color:#763333;text-decoration:underline;}
+a{color: gray}
 a:hover {text-decoration:underline;}
 .block{width:960px; height:auto;}
 .fleft{float:left;}
