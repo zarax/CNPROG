@@ -53,10 +53,10 @@ var Vote = function(){
     var acceptAnonymousMessage = $.i18n._('insufficient privilege');
     var acceptOwnAnswerMessage = $.i18n._('cannot pick own answer as best');
     var favoriteAnonymousMessage = $.i18n._('anonymous users cannot select favorite questions') 
-					+ "<a href='/account/signin/?next=/questions/{{QuestionID}}'>"
+					+ "<a href='/account/signin/?next=/question/{{QuestionID}}'>"
 					+ $.i18n._('please login') + "</a>";
     var voteAnonymousMessage = $.i18n._('anonymous users cannot vote') 
-					+ "<a href='/account/signin/?next=/questions/{{QuestionID}}'>"
+					+ "<a href='/account/signin/?next=/question/{{QuestionID}}'>"
 					+ $.i18n._('please login') + "</a>";
     var upVoteRequiredScoreMessage = $.i18n._('>15 points requried to upvote') 
 					+ $.i18n._('please see') + "<a href='/faq'>faq</a>";
@@ -69,7 +69,7 @@ var Vote = function(){
 					+ $.i18n._('please see') + "<a href='/faq'>faq</a>";
     var offensiveConfirmation = $.i18n._('please confirm offensive');
     var offensiveAnonymousMessage = $.i18n._('anonymous users cannot flag offensive posts')
-					+ "<a href='/account/signin/?next=/questions/{{QuestionID}}'>"
+					+ "<a href='/account/signin/?next=/question/{{QuestionID}}'>"
 					+ $.i18n._('please login') + "</a>";
     var offensiveTwiceMessage = $.i18n._('cannot flag message as offensive twice')
 					+ $.i18n._('please see') + "<a href='/faq'>faq</a>";
