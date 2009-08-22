@@ -12,9 +12,11 @@
 			title="{% trans "comments and answers to others questions" %}" 
 			href="{% url users %}{{view_user.id}}/{{view_user.username}}?sort=responses">{% trans "responses" %}</a>
         {% endif %}
+        <!-- Unworking at this time.
         <a id="reputation" {% ifequal tab_name "reputation" %}class="on"{% endifequal %} 
 			title="{% trans "graph of user reputation" %}" 
 			href="{% url users %}{{view_user.id}}/{{view_user.username}}?sort=reputation">{% trans "reputation history" %}</a>
+        -->
         {% if request.user|can_view_user_votes:view_user %}
         <a id="votes" {% ifequal tab_name "votes" %}class="on"{% endifequal %} 
 			title="{% trans "user vote record" %}" href="{% url users %}{{view_user.id}}/{{view_user.username}}?sort=votes">{% trans "casted votes" %}</a>
