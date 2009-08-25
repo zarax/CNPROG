@@ -211,7 +211,7 @@ def format_number(value):
 
 @register.simple_tag
 def convert2tagname_list(question):
-    question['tagnames'] = [name for name in question['tagnames'].split(u' ')]
+    question['tagnames'] = [name for name in re.split(TAG_SEP, question['tagnames']) if name]
     return ''
 
 @register.simple_tag
