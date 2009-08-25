@@ -85,3 +85,5 @@ CONST = {
     'default_version'   : _('initial version'),
     'retagged'          : _('retagged'),
 }
+
+TAG_SEP = '[\s,]+'

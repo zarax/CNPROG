@@ -1,10 +1,12 @@
 ﻿import datetime
 import logging
+import re
 from django.contrib.auth.models import User, UserManager
 from django.db import connection, models, transaction
 from django.db.models import Q
 from forum.models import *
 from urllib import quote, unquote
+from const import TAG_SEP
 
 class QuestionManager(models.Manager):
     def get_translation_questions(self, orderby, page_size):
@@ -38,7 +40,7 @@ class QuestionManager(models.Manager):
         from forum.models import Tag
         current_tags = list(question.tags.all())
         current_tagnames = set(t.name for t in current_tags)
-        updated_tagnames = set(t for t in tagnames.split(' ') if t)
+        updated_tagnames = set(t for t in re.split(TAG_SEP, tagnames) if t)
         modified_tags = []
 
         removed_tags = [t for t in current_tags
