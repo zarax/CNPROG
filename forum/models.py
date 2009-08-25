@@ -178,7 +178,7 @@ class Question(models.Model):
 
     def tagname_list(self):
         """Creates a list of Tag names from the ``tagnames`` attribute."""
-        tagnames = [name.strip() for name in re.split(ur'[\s,]', self.tagnames)]
+        tagnames = [name.strip() for name in re.split(TAG_SEP, self.tagnames)]
         # Remove empty strings.
         clean_names = [name for name in tagnames if name]
         return clean_names
