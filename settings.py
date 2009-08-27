@@ -73,8 +73,9 @@ INSTALLED_APPS = (
     'django.contrib.humanize',
     'forum',
     'django_authopenid',
-    'debug_toolbar' ,
+    #'debug_toolbar' ,
 )
-
+import django
+DJANGO_VERSION = django.get_version()
 # User settings
 from settings_local import *
